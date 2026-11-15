@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .senior-mode {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  .senior-mode button {
+    min-height: 3.5rem;
+    font-size: 1.125rem !important;
+  }
+  .senior-mode .card-text {
+    font-size: 1.375rem !important;
+  }
+}
